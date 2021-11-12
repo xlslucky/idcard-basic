@@ -1,7 +1,7 @@
-const path = require('path');
+const path = require('path')
 // const { babel } = require('@rollup/plugin-babel');
 // const { nodeResolve } = require('@rollup/plugin-node-resolve');
-const pkg = require('./package.json');
+const pkg = require('./package.json')
 const typescript = require('rollup-plugin-typescript2')
 const { terser } = require('rollup-plugin-terser')
 
@@ -32,4 +32,4 @@ module.exports = {
     // }),
     terser(),
   ],
-};
+}
