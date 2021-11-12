@@ -10,7 +10,7 @@ export function getLastNoByCard(card: string) {
 
 // 校验生日是否是正常日期
 export function verifyBirthday(birthday: string) {
-  if (birthday.length !== 6) {
+  if (birthday.length !== 8) {
     return false
   }
   return !Number.isNaN(
