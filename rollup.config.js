@@ -12,7 +12,7 @@ module.exports = {
   output: [
     { file: pkg.module, format: 'es' },
     { file: pkg.main, format: 'cjs' },
-    { file: pkg.browser, name: 'index', format: 'umd' },
+    { file: pkg.browser, name: 'idcard', format: 'umd' },
   ],
   plugins: [
     typescript(),
