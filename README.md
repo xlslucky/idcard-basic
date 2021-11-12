@@ -1,8 +1,6 @@
 # idcard-basic
 
-***由于 `idcard` 代码库引用地区json体积太大，所以写了个简易版***
-
-> 借鉴 [idcard](https://github.com/navyxie/idcard)
+***借鉴 [idcard](https://github.com/navyxie/idcard)，由于 `idcard` 代码库引用地区json体积太大，所以写了个简易版。idcard-basic [demo](https://codepen.io/xlslucky/pen/KKvxRdq)。***
 
 ## 安装
 

@@ -10,6 +10,9 @@ export function getLastNoByCard(card: string) {
 
 // 校验生日是否是正常日期
 export function verifyBirthday(birthday: string) {
+  if (birthday.length !== 6) {
+    return false
+  }
   return !Number.isNaN(
     new Date(
       Number(birthday.substr(0, 4)),
