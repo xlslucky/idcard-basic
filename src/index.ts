@@ -1,5 +1,3 @@
-function test(): number {
-  return 1 + 1
-}
-
-console.log(test())
+export { default as verify } from './expose/verify'
+export { default as info } from './expose/info'
+export { default as constellation } from './expose/constellation'
