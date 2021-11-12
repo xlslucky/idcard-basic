@@ -10,14 +10,9 @@ const { terser } = require('rollup-plugin-terser')
 module.exports = {
   input: path.resolve(__dirname, './src/index.ts'),
   output: [
-    {
-      file: pkg.module,
-      format: 'es',
-    },
-    {
-      file: pkg.main,
-      format: 'cjs',
-    },
+    { file: pkg.module, format: 'es' },
+    { file: pkg.main, format: 'cjs' },
+    { file: pkg.browser, name: 'index', format: 'umd' },
   ],
   plugins: [
     typescript(),
