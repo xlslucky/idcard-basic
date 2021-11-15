@@ -1,6 +1,4 @@
 const path = require('path')
-// const { babel } = require('@rollup/plugin-babel');
-// const { nodeResolve } = require('@rollup/plugin-node-resolve');
 const pkg = require('./package.json')
 const typescript = require('rollup-plugin-typescript2')
 const { terser } = require('rollup-plugin-terser')
@@ -14,17 +12,5 @@ module.exports = {
     { file: pkg.main, format: 'cjs' },
     { file: pkg.browser, name: 'idcard', format: 'umd' },
   ],
-  plugins: [
-    typescript(),
-    // nodeResolve({
-    //   extensions,
-    //   modulesOnly: true,
-    // }),
-    // babel({
-    //   exclude: 'node_modules/**',
-    //   babelHelpers: 'bundled',
-    //   extensions,
-    // }),
-    terser(),
-  ],
+  plugins: [typescript(), terser()],
 }
