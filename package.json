@@ -1,6 +1,6 @@
 {
   "name": "idcard-basic",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "🇨🇳 中国居民身份证校验",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
