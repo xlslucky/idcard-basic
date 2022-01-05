@@ -1,7 +1,7 @@
 {
   "name": "idcard-basic",
   "version": "0.0.6",
-  "description": "idcard",
+  "description": "🇨🇳 中国居民身份证校验",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "browser": "./dist/umd/index.js",
@@ -14,7 +14,14 @@
     "url": "git+https://github.com/xlslucky/idcard-basic.git"
   },
   "keywords": [
-    "idcard"
+    "idcard",
+    "verify",
+    "info",
+    "constellation",
+    "chinese",
+    "中国",
+    "身份证",
+    "校验"
   ],
   "author": "xlslucky",
   "license": "MIT",
